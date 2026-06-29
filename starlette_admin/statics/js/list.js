@@ -339,6 +339,7 @@ $(function () {
         starts: "startswith",
         ends: "endswith",
         "!contains": "not_contains",
+        without: "not_contains",
         "!starts": "not_startswith",
         "!ends": "not_endswith",
         null: "is_null",
